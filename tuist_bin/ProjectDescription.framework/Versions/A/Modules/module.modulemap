@@ -1,0 +1,4 @@
+framework module ProjectDescription {
+  header "ProjectDescription-Swift.h"
+  requires objc
+}

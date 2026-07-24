@@ -10,8 +10,8 @@ verification. This can also break Xcode's Debug re-export path when
 ## Reproduce
 
 ```sh
-tuist install
-tuist generate --no-open
+./tuist_bin/tuist install
+./tuist_bin/tuist generate --no-open
 
 xcodebuild build \
   -workspace MergeableSystemLibraryRepro.xcworkspace \
